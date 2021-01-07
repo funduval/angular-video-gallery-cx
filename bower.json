@@ -1,0 +1,42 @@
+{
+  "name": "mygearsmomentgallery-chaps",
+  "version": "0.0.0",
+  "appPath": "app",
+  "moduleName": "mygearsmomentgallery-chaps",
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-animate": "1.5.x",
+    "angular-bootstrap": "~1.3.2",
+    "angular-bootstrap-show-errors": "^2.3.0",
+    "angular-deferred-bootstrap": "~0.1.9",
+    "angular-moment": "~0.10.3",
+    "angular-route": "1.5.x",
+    "angular-sanitize": "1.5.x",
+    "angular-touch": "1.5.x",
+    "angular-ui-router": "~0.3.1",
+    "angular-ui-validate": "^1.2.2",
+    "angular-uuid4": "0.3.1",
+    "bootstrap-sass-official": "~3.3.6",
+    "font-awesome": "~4.5.0",
+    "jquery": "~2.2.1",
+    "mixpanel": "^2.7.9",
+    "ng-lodash": "~0.4.0",
+    "ngstorage": "0.3.10",
+    "ionic": "driftyco/ionic-bower#v1.3.1",
+    "bootstrap-social": "^4.12.0",
+    "platform.js": "bestiejs/platform.js#^1.3.1",
+    "urijs": "^1.18.1",
+    "vivoom-chaps": "git@bitbucket.org:vivoom/vivoom-chaps.git#v1.0.58"
+  },
+  "overrides": {
+    "bootstrap-social": {
+      "dependencies": {}
+    }
+  },
+  "resolutions": {
+    "angular": "1.5.x",
+    "angular-animate": "1.5.x",
+    "angular-sanitize": "1.5.x",
+    "angular-ui-router": "~0.3.1"
+  }
+}

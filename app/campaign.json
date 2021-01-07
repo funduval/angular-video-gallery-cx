@@ -1,0 +1,158 @@
+{
+  "feed": "gearsofwar4all",
+  "defaultState": "root.gallery",
+  "requireUserName": false,
+  "browserHistory": false,
+  "loginType": "simple",
+  "hideFeed": false,
+  "hideGalleryHeader": true,
+  "hideCreate": true,
+  "selectThemeFirst": false,
+  "hideLanding": true,
+  "themes": [
+    {
+      "name": "GearsOfWar4 XBox",
+      "hero_image": null,
+      "preset": {
+        "id": "c643b551fc99f73829bfbd518b4e69c703846776",
+        "name": "GearsOfWar4 XBox",
+        "strength": 1,
+        "brightness": 0,
+        "contrast": 0,
+        "autofix": 0
+      }
+    },
+    {
+      "name": "GearsOfWar4",
+      "hero_image": null,
+      "preset": {
+        "id": "1e5268108c2f98bd493f4e5c6fe1ab773f6fa1d7",
+        "name": "GearsOfWar4",
+        "strength": 1,
+        "brightness": 0,
+        "contrast": 0,
+        "autofix": 0
+      }
+    },
+    {
+      "name": "GearsOfWar4-Twitter",
+      "hero_image": null,
+      "preset": {
+        "id": "72fb7426551d7a90cdb178778d5140e5b248dca8",
+        "name": "GearsOfWar4-Twitter",
+        "strength": 1,
+        "brightness": 0,
+        "contrast": 0,
+        "autofix": 0
+      }
+    },
+    {
+      "name": "GearsOfWar4 UK",
+      "hero_image": null,
+      "preset": {
+        "id": "61f3eb55e631806fe5bf3c162865e6dde66481d2",
+        "name": "GearsOfWar4 UK",
+        "strength": 1,
+        "brightness": 0,
+        "contrast": 0,
+        "autofix": 0
+      }
+    },
+    {
+      "name": "GearsOfWar4 AU",
+      "hero_image": null,
+      "preset": {
+        "id": "e9a1c2f217ff53d6da6f264274509f82ae0d425f",
+        "name": "GearsOfWar4 AU",
+        "strength": 1,
+        "brightness": 0,
+        "contrast": 0,
+        "autofix": 0
+      }
+    },
+    {
+      "name": "GearsOfWar4 App UK",
+      "hero_image": null,
+      "preset": {
+        "id": "41e3d643c2eff427760ecde18f5c4adc26370999",
+        "name": "GearsOfWar4 App UK",
+        "strength": 1,
+        "brightness": 0,
+        "contrast": 0,
+        "autofix": 0
+      }
+    },
+    {
+      "name": "GearsOfWar4 CA",
+      "hero_image": null,
+      "preset": {
+        "id": "695656221a0a5a2b6e004828a67757ea8d5ae4ef",
+        "name": "GearsOfWar4 CA",
+        "strength": 1,
+        "brightness": 0,
+        "contrast": 0,
+        "autofix": 0
+      }
+    },
+    {
+      "name": "GearsOfWar4 NZ",
+      "hero_image": null,
+      "preset": {
+        "id": "820d9866aa50b40f4568141d088497b48296225f",
+        "name": "GearsOfWar4 NZ",
+        "strength": 1,
+        "brightness": 0,
+        "contrast": 0,
+        "autofix": 0
+      }
+    }
+  ],
+  "sharing": {
+    "default": {
+      "mine": {
+        "title": "Share Your Own Gears Moment",
+        "perk": "You just might win something",
+        "generic": {
+          "text": "#{url}"
+        },
+        "facebook": {
+          "hashtag": "#GearsOfWar4"
+        },
+        "twitter": {
+          "text": "#{url}",
+          "hashtags": "GearsOfWar4"
+        },
+        "sms": {
+          "text": "Check out this Gears of War 4 fan video #{url}"
+        },
+        "email": {
+          "subject": "#{url}",
+          "body": "Check out this Gears of War 4 fan video #{url}"
+        }
+      },
+      "feed": {
+        "title": "Share Your Favorite Videos From the Gallery",
+        "perk": "You just might win something",
+        "generic": {
+          "text": "#{url}"
+        },
+        "facebook": {
+          "hashtag": "#GearsOfWar4"
+        },
+        "twitter": {
+          "text": "#{url}",
+          "hashtags": "GearsOfWar4"
+        },
+        "sms": {
+          "text": "#{url}"
+        },
+        "email": {
+          "subject": "Gears of War 4 fans",
+          "body": "Check out this Gears of War 4 fan video #{url}"
+        }
+      }
+    }
+  },
+  "id": "mygearsmomentgallery",
+  "name": "mygearsmomentgallery"
+}

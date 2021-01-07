@@ -1,0 +1,32 @@
+{
+  "name": "mygearsmomentgallery",
+  "title": "Gears of War Gallery",
+  "description": "this is a Gallery-Only View for Gears of War",
+  "image": "https://creator.vivoom.co/assets/654864707dbdfcb18333c440e9b55f96/fullsize.jpg",
+  "url": "https://mygearsmomentgallery.vivoom.co",
+  "primary": "#E82C2B",
+  "secondary": "#8fd7f8",
+  "version": "201811.1.47417",
+  "index": "index,follow",
+  "assets": {
+    "video-select-4-3": "https://creator.vivoom.co/assets/ead90701382a1d1e0204157466ba5fe5/fullsize.jpg",
+    "video-select-3-4": "https://creator.vivoom.co/assets/b55894b2d3597c8fe41ca4f53fc3aec9/fullsize.jpg",
+    "video-select-16-9": "https://creator.vivoom.co/assets/4d59afea4fe807c2becc103c44662ae9/fullsize.jpg",
+    "video-select-9-16": "https://creator.vivoom.co/assets/7fbae4fd8a1d83c4d10fd248ddf9364f/fullsize.jpg",
+    "uploading-4-3": "https://creator.vivoom.co/assets/d2c642724c24a91117bdac9563000492/fullsize.jpg",
+    "uploading-3-4": "https://creator.vivoom.co/assets/c9c427a136a9cafc07dff09fbb652e7e/fullsize.jpg",
+    "uploading-16-9": "https://creator.vivoom.co/assets/145e7117962b01dca67a8d6cdc3457ed/fullsize.jpg",
+    "uploading-9-16": "https://creator.vivoom.co/assets/4a9f4e3b66d05851b1e066a91059ba02/fullsize.jpg",
+    "player-background": "https://creator.vivoom.co/assets/aa93b8cd08a6ca624a3a025d12302152/fullsize.jpg",
+    "sharing-background-mine": "https://creator.vivoom.co/assets/6a0ca61834c72cf5fc6f99cc4e7f9dd7/fullsize.jpg",
+    "sharing-background-feed": "https://creator.vivoom.co/assets/6a0ca61834c72cf5fc6f99cc4e7f9dd7/fullsize.jpg",
+    "gallery-background": "https://creator.vivoom.co/assets/0f681f9352ca8067576a27554ac019cc/fullsize.jpg",
+    "landing-4-3": "landing-4-3.jpg",
+    "landing-3-4": "landing-3-4.jpg",
+    "landing-16-9": "landing-16-9.jpg",
+    "landing-9-16": "landing-9-16.jpg",
+    "contact-info-background": "contact-info-background.jpg",
+    "player-background-landscape": "theme-background-landscape.jpg",
+    "player-background-portrait": "theme-background-portrait.jpg"
+  }
+}

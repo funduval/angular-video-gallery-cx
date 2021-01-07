@@ -1,0 +1,62 @@
+<div class="share__title-perk-container">
+  <img id="sharing-logo" src="./official-logo-png.png" alt="gears4-logo">
+
+  <h2 class="share-title" data-ng-if="sharing.title">{{sharing.title}}</h2>
+  <p class="share-perk" data-ng-if="sharing.perk">{{sharing.perk}}</p>
+  <div class="btn-contact-info-container landscape-small" data-ng-if="sharing.requestContactInfo">
+    <button><span ng-bind-html="sharing.contactInfo.accessText" data-ng-click="sharing.requestContactInfo()"></span></button>
+  </div>
+  <ng-transclude class="sharing-transclude landscape-small"></ng-transclude>
+</div>
+<div class="share__share-options-container">
+  <nav class="share-quad">
+    <a data-ng-if="!!sharing.facebookHref" data-ng-href="{{sharing.facebookHref()}}" target="{{sharing.facebookWindowTarget()}}"
+      class="btn-facebook" tabindex="0" aria-label="Share to Facebook">
+      <i class="fa fa-facebook"></i>
+      <i class="share__share-quad_facebook-analytics-workaround" data-ng-click="sharing.trackFacebookShare()"></i><!-- This is needed to make it work inside Facebook's native app where deep linking takes over -->
+    </a>
+    <a data-ng-if="!!sharing.tweetHref" data-ng-href="{{sharing.tweetHref()}}" target="{{sharing.twitterWindowTarget()}}"
+      data-ng-click="sharing.trackTwitterShare()" class="btn-twitter" tabindex="0" aria-label="Tweet this video on Twitter">
+      <i class="fa fa-twitter"></i>
+    </a>
+    <a data-ng-if="!!sharing.email" data-ng-href="{{sharing.email()}}" data-ng-click="sharing.trackEmailShare()" class="btn-email"
+      tabindex="0" aria-label="Share this video via email">
+      <i class="fa fa-envelope"></i>
+    </a>
+    <a data-ng-if="!!sharing.smsHref" data-ng-href="{{sharing.smsHref()}}" data-ng-click="sharing.trackSmsShare()"
+      class="btn-sms" tabindex="0" aria-label="Text this video via SMS">
+      <i class="fa fa-commenting"></i>
+    </a>
+    <a data-ng-if="!!sharing.linkedInHref" data-ng-href="{{sharing.linkedInHref()}}" target="_blank" data-ng-click="sharing.trackLinkedInShare()"
+      class="btn-linkedin" tabindex="0" aria-label="Share Video on LinkedIN">
+      <i class="fa fa-linkedin"></i>
+    </a>
+    <a data-ng-if="!!sharing.line" data-ng-href="{{sharing.line()}}" data-ng-click="sharing.trackLineShare()" class="btn-line"
+      tabindex="0" aria-label="Share Video on LINE">
+    </a>
+    <a data-ng-if="!!sharing.viberHref" data-ng-href="{{sharing.viberHref()}}" data-ng-click="sharing.trackViberShare()"
+      class="btn-viber" tabindex="0" aria-label="Send this video via Viber">
+      <img src="viber-icon.png" />
+    </a>
+    <a data-ng-if="!!sharing.whatsapp" data-ng-click="sharing.whatsapp()" class="btn-whatsapp" tabindex="0" aria-label="Share this video on WhatsApp">
+      <i class="fa fa-whatsapp"></i>
+    </a>
+    <button class="globalcitizen" data-ng-if="!!sharing.integrations.globalCitizen && sharing.hasContestEmail()"
+      data-ng-click="sharing.integrations.globalCitizen()">
+      <div class="gc-icon"></div><span>CLAIM POINTS</span>
+    </button>
+  </nav>
+  <div class="generic-link-container" data-ng-style="{'visibility': !!sharing.generic ? 'visible' : 'hidden'}">
+    <span>Copy Video Link:</span>
+    <div class="generic-link">
+      <input id="generic-link-input" type="text" value="{{sharing.generic()}}" data-ng-class="{'rounded-corners-right': !sharing.displayGenericLinkButton()}"
+        readonly>
+      <i data-ng-if="sharing.displayGenericLinkButton()" class="fa fa-copy" data-ng-class="{'rounded-corners-right': sharing.displayGenericLinkButton()}"
+        data-ng-click="sharing.copyLinkToClipboard()"></i>
+    </div>
+  </div>
+  <div class="btn-contact-info-container portrait" data-ng-if="sharing.requestContactInfo">
+    <button><span ng-bind-html="sharing.contactInfo.accessText" data-ng-click="sharing.requestContactInfo()"></span></button>
+  </div>
+  <ng-transclude class="sharing-transclude portrait"></ng-transclude>
+</div>

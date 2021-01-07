@@ -1,0 +1,149 @@
+.landing-background {
+  height: 100%;
+  background-position: 50%;
+  background-size: cover;
+  @media screen and (min-aspect-ratio: 4/3) {
+    background-image: url(landing-16-9.jpg) !important;
+  }
+  @media screen and (max-aspect-ratio: 4/3) and (min-aspect-ratio: 1/1) {
+    background-image: url(landing-4-3.jpg) !important;
+  }
+  @media screen and (max-aspect-ratio: 1/1) and (min-aspect-ratio: 3/4) {
+    background-image: url(landing-3-4.jpg) !important;
+  }
+  @media screen and (max-aspect-ratio: 3/4) {
+    background-image: url(landing-9-16.jpg) !important;
+  }
+}
+
+.create-content .video-select, .screen-with-background {
+  background-position: 50%;
+  background-size: cover;
+  @media screen and (min-aspect-ratio: 4/3) {
+    background-image: url(https://creator.vivoom.co/assets/4d59afea4fe807c2becc103c44662ae9/fullsize.jpg) !important;
+  }
+  @media screen and (max-aspect-ratio: 4/3) and (min-aspect-ratio: 1/1) {
+    background-image: url(https://creator.vivoom.co/assets/ead90701382a1d1e0204157466ba5fe5/fullsize.jpg) !important;
+  }
+  @media screen and (max-aspect-ratio: 1/1) and (min-aspect-ratio: 3/4) {
+    background-image: url(https://creator.vivoom.co/assets/b55894b2d3597c8fe41ca4f53fc3aec9/fullsize.jpg) !important;
+  }
+  @media screen and (max-aspect-ratio: 3/4) {
+    background-image: url(https://creator.vivoom.co/assets/7fbae4fd8a1d83c4d10fd248ddf9364f/fullsize.jpg) !important;
+  }
+}
+
+.upload-background {
+  height: 100%;
+  background-position: 50%;
+  background-size: cover;
+  @media screen and (min-aspect-ratio: 4/3) {
+    background-image: url(https://creator.vivoom.co/assets/145e7117962b01dca67a8d6cdc3457ed/fullsize.jpg) !important;
+  }
+  @media screen and (max-aspect-ratio: 4/3) and (min-aspect-ratio: 1/1) {
+    background-image: url(https://creator.vivoom.co/assets/d2c642724c24a91117bdac9563000492/fullsize.jpg) !important;
+  }
+  @media screen and (max-aspect-ratio: 1/1) and (min-aspect-ratio: 3/4) {
+    background-image: url(https://creator.vivoom.co/assets/c9c427a136a9cafc07dff09fbb652e7e/fullsize.jpg) !important;
+  }
+  @media screen and (max-aspect-ratio: 3/4) {
+    background-image: url(https://creator.vivoom.co/assets/4a9f4e3b66d05851b1e066a91059ba02/fullsize.jpg) !important;
+  }
+}
+
+.video-container {
+  background-size: cover;
+  background: url(theme-background-landscape.jpg) 50% !important;
+
+  @media screen and (max-aspect-ratio: 1/1) {
+    background-image: url(theme-background-portrait.jpg);
+  }
+}
+
+
+.contact-info-backdrop {
+  width: 100vw;
+  height: 100vh;
+  background: url(contact-info-background.jpg) !important;
+  background-position: 50% !important;
+  background-size: cover !important;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.creator-sharing-backdrop {
+  background: url(https://creator.vivoom.co/assets/6a0ca61834c72cf5fc6f99cc4e7f9dd7/fullsize.jpg) !important;
+  background-position: 50% !important;
+  background-size: cover !important;
+  filter: blur(2px);
+
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.sharing-from-gallery-mine {
+  background: url(https://creator.vivoom.co/assets/6a0ca61834c72cf5fc6f99cc4e7f9dd7/fullsize.jpg) !important;
+  background-position: 50% !important;
+  background-size: cover !important;
+  filter: blur(3px) !important;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.sharing-from-gallery-mine.standalone {
+  z-index: 0;
+}
+
+.sharing-from-gallery {
+  background: url(https://creator.vivoom.co/assets/6a0ca61834c72cf5fc6f99cc4e7f9dd7/fullsize.jpg) !important;
+  background-position: 50% !important;
+  background-size: cover !important;
+  filter: blur(2px) !important;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.sharing-from-gallery.standalone {
+  z-index: 0;
+}
+
+#gallery-summary + nav + ion-pane {
+  background: url(https://creator.vivoom.co/assets/0f681f9352ca8067576a27554ac019cc/fullsize.jpg) 50%/cover !important;
+}
+
+.player-background {
+  background: url(https://creator.vivoom.co/assets/aa93b8cd08a6ca624a3a025d12302152/fullsize.jpg) 50%/cover !important;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0;
+}
